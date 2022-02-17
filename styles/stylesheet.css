@@ -1,3 +1,5 @@
+/* Hier passen we het formaat van de afbeelding aan */
+
 #heroImgContainer {
     height: 90vh;
 }   
@@ -6,6 +8,7 @@
     height: 80%;
 }
 
+/* hier passen we de ruimte tussen de letters aan.  */
 #heroTitle {
     letter-spacing: 20px;
 }
