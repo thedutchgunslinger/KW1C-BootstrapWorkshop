@@ -13,45 +13,77 @@
     <link rel="stylesheet" href="styles/stylesheet.css" />
     <title>Bootstrap Tutorial</title>
   </head>
-  <body class="bg-dark overflow-hidden">
+  <body class="bg-dark">
     <div class="container-fluid p-0">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-2 border-secondary"
+        >
+          <div class="container-fluid justify-content-end">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto ms-5">
-                    <li class="nav-item active">
-                        <a class="nav-link text-warning fs-3 mt-4" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-warning fs-3 mt-4" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-warning fs-3 mt-4" href="#">Tour</a>
-                    </li>
-                </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-warning fs-4 text-uppercase"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning fs-4 text-uppercase" href="#"
+                    >Music</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning fs-4 text-uppercase" href="#"
+                    >Tour</a
+                  >
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
       </div>
       <div class="row">
         <div
-          class="col col-4 d-flex flex-wrap mt-5"
-          id="heroImgContainer">
+          class="col col-md-4 order-2 order-md-1 col-12 d-flex flex-wrap mt-5"
+          id="heroImgContainer"
+        >
           <img
             src="img/romesSkull.png"
-            class="img-fluid align-middle"
-            alt="Skull"/>
+            class="img align-middle mt-n5 mt-n0-md"
+            alt="Skull"
+          />
         </div>
-        <div class="col d-flex flex-wrap mt-5">
-          <div>
-            <h1 class="display-1 text-uppercase text-light fw-bolder" id="heroTitle">
+        <div
+          class="col col-md-8 col-12 order-1 order-md-2 d-flex flex-wrap mt-5"
+        >
+          <div class="mx-auto mx-md-0">
+            <h1
+              class="display-1 text-uppercase text-light fw-bolder"
+              id="heroTitle"
+            >
               Romes
             </h1>
             <h1 class="text-light" id="heroSubtitle">Chillthefuckout.</h1>
-            <a href="https://open.spotify.com/album/5mUQ4VRFlXcwF0wChSxYrw?si=dhofRuOFTtSAx5RAVNns6g" target="_blank" class="btn btn-outline-warning btn-lg mt-4"
-              >Listen on Spotify!</a>
+            <a
+              href="https://open.spotify.com/album/5mUQ4VRFlXcwF0wChSxYrw?si=dhofRuOFTtSAx5RAVNns6g"
+              target="_blank"
+              class="btn btn-outline-warning btn-lg mt-4"
+              >Listen on Spotify!</a
+            >
           </div>
         </div>
       </div>
