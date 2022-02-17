@@ -24,6 +24,9 @@ Er zijn veel goede tutorials over Bootstrap, deze workshop is meer een orienteer
 - [Semantic UI](https://semantic-ui.com/)
 - [UIkit](https://getuikit.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Tachyons](https://tachyons.io/)
+- [Pure CSS](https://purecss.io/)
+- [Milligram](https://milligram.io/)
 
 
 ## Afsluiter
