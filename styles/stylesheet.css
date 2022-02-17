@@ -1,0 +1,15 @@
+#heroImgContainer {
+    height: 90vh;
+}   
+
+#heroImgContainer img {
+    height: 80%;
+}
+
+#heroTitle {
+    letter-spacing: 20px;
+}
+
+#heroSubtitle {
+    letter-spacing: 5px;
+}
