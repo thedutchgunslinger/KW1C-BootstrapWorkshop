@@ -29,5 +29,6 @@ Er zijn veel goede tutorials over Bootstrap, deze workshop is meer een orienteer
 ## Afsluiter
 Heel veel plezier met het maken van al je geweldige projecten!
 Als je ergens op vast loopt of vragen hebt laat het me weten.
+Een live Demo is te zien op [kw-1-c-bootstrap-workshop.vercel.app](https://kw-1-c-bootstrap-workshop.vercel.app/)
 
  Noah Beij
